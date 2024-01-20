@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.star-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* margin-top: 50px; */
+}
+
+.star-btn {
+  background-color: 
+rgb(56, 135, 190); 
+  color: white;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.star-btn:hover{
+    background-color:rgb(82, 211, 216);
+}
+.star-length {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    border-radius: 5%;
+    background-color: rgb(23, 107, 135);
+  margin-top: 30px;
+
+}
+
+.star-length p {
+   
+  font-size: 44px; 
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 18px; 
+  font-weight: bold;
+}
