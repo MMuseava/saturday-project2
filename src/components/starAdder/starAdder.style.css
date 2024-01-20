@@ -20,6 +20,8 @@ rgb(56, 135, 190);
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: bolder;
+   font-size: 25px; 
 
 }
 .star-btn:hover{
@@ -42,7 +44,8 @@ rgb(56, 135, 190);
 }
 
 .total {
-  margin-top: 20px;
-  font-size: 18px; 
+  margin-top: 50px ;
+  font-size: 25px; 
   font-weight: bold;
+  color: white;
 }
