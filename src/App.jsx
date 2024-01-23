@@ -1,10 +1,16 @@
 import "./App.css";
-import StarAdder from "./components/starAdder/StarAdder";
+import CheckList from "./components/checkList/CheckList";
+
+
+// import StarAdder from "./components/starAdder/StarAdder";
 
 function App() {
 	return(
 		<div className="App">
-			<StarAdder/>
+			{/* <StarAdder/> */}
+			<CheckList />
+
+			
 
 		</div>
 	)
