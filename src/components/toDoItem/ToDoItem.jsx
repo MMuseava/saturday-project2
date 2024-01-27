@@ -15,7 +15,7 @@ const [isChecked, setIsChecked] = useState(false);
 const [isButtonClicked, setIsButtonClicked] = useState(false);
 
 
-  const handleCheckboxChange = () => {
+   const handleCheckboxChange = () => {
     completedToDo(todoId);
     setIsChecked(!isChecked);
   };
